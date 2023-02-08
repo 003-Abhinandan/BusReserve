@@ -7,7 +7,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import pic1 from "../Public/Bus_Stand.jpg";
-import pic from "../Public/Homepic.jpg";
+import pic from "../Public/Bus.png";
 
 const styles = {
   paperContainer: {
@@ -27,19 +27,7 @@ export default function Home() {
      
     <Box style={styles.paperContainer} sx={{ minHeight: "100vh" }}>
 
-      {/* Write further code here */}
-      {/* <Card sx={{ width: "50rem", marginLeft: "15rem", marginTop:""}}>
-      <CardContent>
-      <h4>Hello WOrld</h4>
-      </CardContent>
-      </Card> */}
-
     </Box>
-
-  
-
-    {/* <div style={{ backgroundImage: "url(../Public/Bus_Stand.jpg)" }}> */}
-    {/* <img src={Bimage}></img> */}
     </div>
   );
 }

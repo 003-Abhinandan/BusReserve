@@ -18,6 +18,10 @@ export const Header = () => {
                  indicatorColor="secondary">
                    <Tab label="BUS TICKETS"/>
 
+                   <NavLink to="/Booking" style={{textDecoration: "none", color: "white"}}>
+                   <Tab label="Book Ticket"/>
+                   </NavLink>
+
                    <NavLink to="/Login" style={{textDecoration: "none", color: "white"}}>
                    <Tab label="Login"/>
                    </NavLink>
@@ -25,6 +29,11 @@ export const Header = () => {
                    <NavLink to="/Signup" style={{textDecoration: "none", color: "white"}}>
                    <Tab label="SignUp"/>
                    </NavLink>
+
+                   <NavLink to="/UserDetails" style={{textDecoration: "none", color: "white"}}>
+                   <Tab label="UserDetails"/>
+                   </NavLink>
+
                  </Tabs>
                 {/* <Button sx={{marginLeft:"auto"}} variant="contained">Login</Button>
                  <Button sx={{marginLeft:"10px"}} variant="contained">Signup</Button> */}

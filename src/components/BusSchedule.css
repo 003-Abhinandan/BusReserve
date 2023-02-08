@@ -1,0 +1,49 @@
+ .bus-schedule-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .reservation-container {
+    border: 1px solid #dddddd;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .reservation-container h2 {
+    margin-top: 0;
+  }
+  
+  .confirmation-container {
+    border: 1px solid #dddddd;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #dff0d8;
+  }
+   body {
+    background-image: url(../Public/Bus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    backdrop-filter: blur(10px);
+  }

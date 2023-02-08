@@ -1,0 +1,56 @@
+ .admin-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,td {
+    border: 1px solid black;
+    padding: 8px;
+  } 
+  
+  th {
+    background-color: #2561fa;
+  }
+  td{
+    background-color:#25dafa;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  label {
+    margin-right: 8px;
+    color:rgb(21, 4, 7)
+  }
+  
+  input {
+    margin-right: 8px;
+
+  }
+  h1,h2{
+    color:rgb(67, 43, 226)
+  }
+  body {
+    background-image: url(../Public/Bus.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    backdrop-filter: blur(10px);
+  }
